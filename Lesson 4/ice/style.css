@@ -1,0 +1,72 @@
+body {
+    background-color: #FCA6C9;
+}
+
+.pageContent {
+    width: 50%;
+    min-width: 300px;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+h5 {
+    margin: 10px auto;
+}
+
+ol {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pageContent ol li {
+    line-height: 20px;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
+
+.quote {
+    font-size: 25px;
+    margin: 20px 20%;
+    line-height: 30px;
+}
+
+.quote::before {
+    content: "“";
+    margin-left: 5px;
+}
+
+.quote::after {
+    content: "”";
+    margin-right: 5px;
+}
+
+
+.white {
+    color: white;
+}
+
+.coolFont {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    margin: 0 15%;
+    font-size: 11.5px;
+}
+
+footer p {
+    margin: 3px;
+}
