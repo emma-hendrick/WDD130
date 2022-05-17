@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+body div {
+    margin: 0px auto;
+    min-width: 100px;
+    max-width: 1600px;
+}
+
+.small {
+    background-color: red;
+    padding: 50px;
+    margin: 0px 80px;
+}
+
+.medium {
+    background-color: blue;
+    padding: 60px;
+    margin: 0px 40px;
+}
+
+.large {
+    background-color: green;
+    padding: 70px;
+    margin: 0px 0px;
+}
+
+.nerd-box div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+}
+
+.left {
+    background-color: yellow;
+    float: left;
+}
+
+.right {
+    background-color: pink;
+    float: right;
+}
