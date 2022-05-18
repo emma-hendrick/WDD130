@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 body { 
+    font-family: "Times-new-roman", Helvetica, sans-serif;
+    font-size: 22px;
     background-color: #2d10a1;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #29e6cc;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
 }
 
 h4 {
@@ -11,7 +23,10 @@ h4 {
 }
 
 .home-title {
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
     color: white;
+    margin-top: 10px;
 }
 
 #content {
@@ -23,6 +38,14 @@ h4 {
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 #hero-img {
     width: 100%;
 }
@@ -31,6 +54,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     color: #2d10a1;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -51,7 +75,12 @@ main section {
 }
 
 main section h2 {
+    font-family: "Lato", sans-serif;
     color: white;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -61,9 +90,13 @@ main section h2 {
 
 
 .book, .join {
+    font-size: 16px;
     text-decoration: none;
     background-color: white;
     color: #2d10a1;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -71,7 +104,17 @@ main section h2 {
     color: black;
 }
 
+.card-img {
+    border: 10px solid black;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .msg {
+    padding: 35px;
+    line-height: 1.5em;
     background-color: white;
 }
 
@@ -80,11 +123,19 @@ main section h2 {
 }
 
 .msg p {
+    font-size: .8em;
     color: #2d10a1;
+    padding-bottom: 15px;
 }
 
 footer {
+    margin-top: 200px;
     background-color: #29e6cc;
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer h3 {
