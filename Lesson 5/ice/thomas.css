@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.title {
+    width: 100%;
+    margin: 0;
+}
+
+.images {
+    background-color: #737373;
+    margin: 0;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.images img {
+    display: inline-block;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    width: 300px;
+    margin: 30px;
+}
