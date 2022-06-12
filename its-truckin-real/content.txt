@@ -1,0 +1,67 @@
+Why will people come to your site?
+People will come to our site for a few different reasons. First, to hire us for catering, second, to learn about our plans on when we 
+will be opening, and last, to try to find information about our route and our menu.
+
+What questions will your visitors expect your site to answer for them?
+People will expect to find information on when our catering is available, how much it will cost, how far we are willing to travel, and 
+what we will offer as part of our catering services. They also expect to find up to date information about the menu, the route we travel,
+and any major events coming up for the truck.
+
+What types of activities will visitors want to complete on your site?
+They will want to be able to reach an FAQ to hopefully answer any of their major questions, and will likely want to be able to contact us.
+
+What information is necessary to complete any actions your site offers?
+They will need to know that we aren't yet open, and that we do plan on opening in the future.
+
+Why will your visitors come to your site instead of another to get this information or complete the actions?
+This site is specific to this business, there aren't any other sites open for this specific business.
+
+
+HOME PAGE
+
+    Opening modal or something
+
+        Welcome to It's Truckin Real: Rolled Ice Cream and Cocoa, 
+        we are not currently open, but plan to be open for business soon.
+
+    Menu
+
+        We have many notable flavors for our ice cream, such as Mint Chocolate Chip, Cookies and Cream, Orange Cream, Chocolate Coconut,
+        Dark Chocolate Raspberry, and Dark Chocolate Orange. We also have a variety of flavors for our drinks, our hot chocolate options are 
+        Peppermint, Gingerbread, Raspberry, and Mexican Hot Chocolate. We also offer milkshakes, Cookies and Cream, Chocolate, Strawberry, Vanilla,
+        or Orange Cream. 
+
+    Reviews
+
+        We have some notable reviews that are 100% legit... 
+        Albert Einstein, "Best ice cream in the world, 5/5"
+        Snoop Dog, "Totes yolo my duudes, 4.5/5"
+        Elon Musk, "Their CEO must be a genius, 5/5"
+
+    Goals
+
+        Our company goals are to make great ice cream, and to ensure that our employees are set up to succeed and be happy.
+
+FAQ:
+
+    When do you plan on opening
+
+        Right now there are a variety of factors slowing our opening, however, we plan on opening as soon as is reasonably possible, we don't
+        have an exact date either
+
+    Will you ever add flavors
+
+        We will actually have a contest each month to submit a new flavor of the month, and each year we will review them, and decide if we should
+        add any to our permanent menu
+
+    What will your route look like
+
+        We will actually be in [these places] at [these times], outside of that we try to drive around the various residential zones at a time
+        of day that won't make people angry.
+
+
+CONTACT US:
+
+    Ways to reach us
+
+        The best way to reach us is to email us at itstruckinreal@gmail.com, or to fill out this form (Then there will be a form)
