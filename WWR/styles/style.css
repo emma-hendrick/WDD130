@@ -196,7 +196,6 @@ main section img {
 }
 
 footer {
-    margin-top: 200px;
     background-color: #29e6cc;
     padding: 25px 50px;
     display: flex;
@@ -226,7 +225,30 @@ footer a:hover {
     color: white;
 }
 
+/* For the FAQ now */
 
+.dropdown {
+    background-color: white;
+    padding: 30px;
+}
+
+.dropdown-text {
+    font-weight: bolder;
+}
+
+.dropdown-content {
+    display: none;
+    text-align: justify;
+    color: #2d10a1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-explanation {
+    padding: 30px; 
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
