@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Whitewater Rafting Vacations | Dry Oar Boating | Contact Us</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a href="index.html" id="logo_link">
+                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="faq.html">FAQ</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input name="user_name" id="name" type="text">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input name="user_email" id="mail" type="email">
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea name="user_message" id="msg"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+        </main>
+        <footer>
+            <h3>Dry Oar &copy; 2022 - Michael Hendrick</h3>
+            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a target="_blank" href="https://facebook.com">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a target="_blank" href="https://twitter.com">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a target="_blank" href="https://instagram.com">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+        </div>
+        </footer>
+    </div0
+    ><script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
