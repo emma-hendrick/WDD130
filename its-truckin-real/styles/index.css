@@ -1,0 +1,87 @@
+
+/* #region MAIN */
+
+main {
+    background-color: #FCFFFD;
+}
+
+.brand-goals h3 {
+  background-image: linear-gradient(to right, #44968C, #64B6AC);
+  color: #FCFFFD;
+  margin: 0;
+  padding: 20px;
+}
+
+/* #endregion */
+
+/* #region MENU */
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  height: 300px;
+}
+
+.menu > div {
+  width: 95%;
+  margin: 20px auto;
+  background-image: linear-gradient(to bottom, #6D838E, #5D737E);
+  color: #FCFFFD;
+  font-size: 1.3em;
+}
+
+.spacing {
+  clear: both;
+  background-image: linear-gradient(to right, #44968C, #64B6AC);
+  color: #FCFFFD;
+  margin: 0;
+  padding: 30px;
+}
+
+/* #endregion */
+
+/* #region REVIEWS */
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.review {
+  background-color: #5D737E;
+  margin: 30px 2%;
+  padding: 40px 0;
+}
+
+.review p {
+  color: #FCFFFD;
+  line-height: 24px;
+  margin-top: 0;
+  overflow-wrap: break-word;
+}
+
+.stars {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.unchecked, .checked {
+  display: grid;
+  grid-template-columns: auto repeat(5, 14px) auto;
+  column-gap: 4px;
+  text-align: left;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.stars .checked {
+  color: #FFA500;
+}
+
+/* #endregion */
