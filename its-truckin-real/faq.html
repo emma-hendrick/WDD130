@@ -9,7 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="images/logo.png">
-    <link rel="stylesheet" href="styles/contact-us.css">
+    <link rel="stylesheet" href="styles/faq.css">
 </head>
 <body>
     <header>
@@ -27,10 +27,8 @@
     </header>
     <main>
         <div class="dropdown">
-            <div class="dropdown-label">
-                <h2>When do you plan on opening?</h2>
-            </div>
-            <div class="dropdown-content">
+            <button class="accordion">When do you plan on opening?</button>
+            <div class="panel">
                 <img src="images/orange_cream.jpg">
                 <p>
                     Right now there are a variety of factors
@@ -41,10 +39,8 @@
             </div>
         </div>
         <div class="dropdown">
-            <div class="dropdown-label">
-                <h2>Will you ever add new flavors?</h2>
-            </div>
-            <div class="dropdown-content">
+            <button class="accordion">Will you ever add new flavors?</button>
+            <div class="panel">
                 <img src="images/dark_chocolate_raspberry.jpg">
                 <p>
                     We will actually have a contest each month
@@ -56,10 +52,8 @@
             </div>
         </div>
         <div class="dropdown">
-            <div class="dropdown-label">
-                <h2>What will your route look like?</h2>
-            </div>
-            <div class="dropdown-content">
+            <button class="accordion">What will your route look like?</button>
+            <div class="panel">
                 <img src="images/chocolate_coconut.jpg">
                 <p>
                     We will actually be in [these places] at [these times],
@@ -79,5 +73,25 @@
     <h3>It's Truckin' Real © 2021 - Michael Hendrick</h3>
     <a targer="_blank" href="site-plan.html">Site Plan It's Truckin' Real</a>
 </footer>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("accactive");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+</script>
 </body>
 </html>
