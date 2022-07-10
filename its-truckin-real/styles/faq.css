@@ -41,17 +41,21 @@
   }
 
   .panel img {
-    grid-column: 1/15;
+    border-radius: 5px;
+    grid-column: 1/11;
     grid-row: 1/11;
     width: 100%;
   }
 
   .panel p {
+    border-radius: 5px;
     font-size: 1.1em;
-    grid-column: 14/51;
+    grid-column: 10/51;
     grid-row: 2/10;
     background-color: #5D737E;
     color: #FCFFFD;
     box-sizing: border-box;
     padding: 40px;
+    text-align: justify;
+    border: 1px black solid;
   }
