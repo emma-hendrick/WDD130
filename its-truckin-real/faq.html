@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>It's Truckin Real | Rolled Ice Cream and Cocoa | Frequently Asked Questions</title>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:bold' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="styles/faq.css">
@@ -27,8 +27,8 @@
     </header>
     <main>
         <div class="dropdown">
-            <button class="accordion">When do you plan on opening?</button>
-            <div class="panel">
+            <button class="accordion accactive">When do you plan on opening?</button>
+            <div class="panel" style="display: grid;">
                 <img src="images/orange_cream.jpg">
                 <p>
                     Right now there are a variety of factors
@@ -39,8 +39,8 @@
             </div>
         </div>
         <div class="dropdown">
-            <button class="accordion">Will you ever add new flavors?</button>
-            <div class="panel">
+            <button class="accordion accactive">Will you ever add new flavors?</button>
+            <div class="panel" style="display: grid;">
                 <img src="images/dark_chocolate_raspberry.jpg">
                 <p>
                     We will actually have a contest each month
@@ -52,11 +52,11 @@
             </div>
         </div>
         <div class="dropdown">
-            <button class="accordion">What will your route look like?</button>
-            <div class="panel">
+            <button class="accordion accactive">What will your route look like?</button>
+            <div class="panel" style="display: grid;">
                 <img src="images/chocolate_coconut.jpg">
                 <p>
-                    We will actually be in [these places] at [these times],
+                    We will actually be at Porter Park at 10:00 AM and 2:00 PM on weekdays,
                     outside of that we will try to drive around various
                     residential zones at a time of day that won't make 
                     people angry.
@@ -71,7 +71,7 @@
             <a target="_blank" href="https://instagram.com/itstruckinreal"><img src="images/instagram.png" alt="instagram icon"></a>
         </div>
     <h3>It's Truckin' Real © 2021 - Michael Hendrick</h3>
-    <a targer="_blank" href="site-plan.html">Site Plan It's Truckin' Real</a>
+    <a target="_blank" href="site-plan.html">Site Plan It's Truckin' Real</a>
 </footer>
 <script>
     var acc = document.getElementsByClassName("accordion");
@@ -85,10 +85,10 @@
 
         /* Toggle between hiding and showing the active panel */
         var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
+        if (panel.style.display === "grid") {
         panel.style.display = "none";
         } else {
-        panel.style.display = "block";
+        panel.style.display = "grid";
         }
     });
     }
