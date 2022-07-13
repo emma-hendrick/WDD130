@@ -26,7 +26,7 @@
         </nav>   
     </header>
     <main>
-        <div>
+        <div class="img-text left">
             <img src="images/call.jpg">
             <p>
                 The best way to reach us is to email us at
@@ -36,18 +36,15 @@
         </div>
         <div>
             <form action="mailto:michael.hendrick@itstruckinreal.com" method="POST" enctype="multipart/form-data" name="Contact Form - It's Truckin' Real Website">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name">
-                <label for="phone-num">Phone Number:</label>
-                <input type="tel" name="phone-num" id="phone-num">
-                Message: <br> 
-                <textarea name="contact-msg"></textarea>
-                <input type="submit" value="Submit">
+                <input type="email" name="email" id="email" required placeholder="Your Email"><br>
+                <input type="text" name="name" id="name" placeholder="Your Name">
+                <input type="tel" name="phone-num" id="phone-num" placeholder="Your Phone Number">
+                <br>  
+                <textarea name="contact-msg" placeholder="Your Message" required></textarea><br>
+                <input type="submit" id="submit" value="Submit">
             </form>
         </div>
-        <div>
+        <div class="img-text right">
             <p>
                 We are not currently open, and do not currently
                 have a planned opening date. There are some things
